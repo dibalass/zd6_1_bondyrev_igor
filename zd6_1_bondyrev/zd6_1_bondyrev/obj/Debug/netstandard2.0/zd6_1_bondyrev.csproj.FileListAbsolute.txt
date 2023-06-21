@@ -1,0 +1,17 @@
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.csproj.AssemblyReference.cache
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.AssemblyInfoInputs.cache
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.AssemblyInfo.cs
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.csproj.CoreCompileInputs.cache
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\bin\Debug\netstandard2.0\zd6_1_bondyrev.deps.json
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\bin\Debug\netstandard2.0\zd6_1_bondyrev.dll
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\bin\Debug\netstandard2.0\ref\zd6_1_bondyrev.dll
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\bin\Debug\netstandard2.0\zd6_1_bondyrev.pdb
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.dll
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\ref\zd6_1_bondyrev.dll
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\zd6_1_bondyrev.pdb
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\Start.xaml.g.cs
+C:\Users\305-12\Desktop\bondyrev\zd6_1_bondyrev\zd6_1_bondyrev\obj\Debug\netstandard2.0\style.css.g.cs

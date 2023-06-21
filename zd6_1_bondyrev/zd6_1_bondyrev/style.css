@@ -1,0 +1,58 @@
+﻿^contentpage {
+    background-color: gray;
+}
+
+#header {
+    margin: 90;
+    font-size: 25;
+    font-weight: 900;
+}
+
+#entry {
+    background-color: gray;
+    border-radius: initial 10;
+    color: black;
+}
+
+#button1 {
+    background-color: red;
+    border-radius: 20;
+    color:#ffffff;
+}
+#button2 {
+    background-color: #a49494;
+    border-radius: 20;
+    color: #000000;
+}
+#button3 {
+    background-color: white;
+    border-radius: 20;
+    border-color: #f82222;
+    border-width: 2;
+    color: #000000;
+}
+#button4 {
+    background-color: white;
+    border-radius: 20;
+    border-color: #f82222;
+    border-width: 2;
+    color: #f82222;
+}
+#button {
+    margin-top: 30;
+    background-color: red;
+    color: white;
+}
+
+#else {
+    color: black;
+}
+
+label {
+    color: white;
+    font-size: 18;
+}
+
+.LabelTextColor {
+    color: black;
+}

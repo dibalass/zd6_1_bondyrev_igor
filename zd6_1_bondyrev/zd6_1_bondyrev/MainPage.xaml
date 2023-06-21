@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd6_1_bondyrev.MainPage">
+
+    <CarouselPage.Resources>
+        <StyleSheet Source="/style.css"/>
+    </CarouselPage.Resources>
+    
+    <ContentPage>
+        <StackLayout Orientation="Vertical">
+
+            <Switch  IsToggled="False" OnColor="Orange" ThumbColor="Green" HorizontalOptions="Center"/>
+
+            <Picker x:Name="picker" Title="DROPDOWN" TitleColor="Black" WidthRequest="500" HorizontalOptions="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Select one</x:String>
+                        <x:String>Select two</x:String>
+                        <x:String>Select three</x:String>
+                        <x:String>Select four</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button1" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,20,0,0"/>
+                <Button StyleId="button1" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,20,0,0"/>
+                <Button StyleId="button1" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,20,0,0"/>
+                <ImageButton StyleId="button1" Source="play.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,20,0,0"/>
+                <ImageButton StyleId="button1" Source="marker.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,20,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button2" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button2" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button2" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button2" Source="play.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button2" Source="marker.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button3" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button3" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button3" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button3" Source="play.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button3" Source="marker.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button4" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button4" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button4" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button4" Source="play.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <ImageButton StyleId="button4" Source="marker.png"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0" />
+            </OnPlatform>
+        </ContentPage.Padding>
+        <StackLayout>
+            <Label Text="Red" FontSize="Medium" HorizontalOptions="Center" />
+            <BoxView Color="Red" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
