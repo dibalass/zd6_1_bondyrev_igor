@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd6_1_bondyrev.MainPage">
+
+    <CarouselPage.Resources>
+        <StyleSheet Source="/style.css"/>
+    </CarouselPage.Resources>
+    
+    <ContentPage>
+        <StackLayout Orientation="Vertical">
+
+            <Picker x:Name="picker" Title="DROPDOWN" SelectedIndexChanged="picker_SelectedIndexChanged" TitleColor="Black" WidthRequest="300" HorizontalOptions="Center" BackgroundColor="LightBlue">
+                <Picker.Items>
+                    <x:String>Select one</x:String>
+                    <x:String>Select two</x:String>
+                    <x:String>Select three</x:String>
+                    <x:String>Select four</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <StackLayout Orientation="Vertical" WidthRequest="100">
+
+                <Slider x:Name="slider1" Minimum="0" Maximum="100" MinimumTrackColor="LightBlue" MaximumTrackColor="Black" ThumbColor="White" WidthRequest="10" Margin="10,50,175,0"/>
+                <Slider x:Name="slider2" Minimum="0" Maximum="100" MinimumTrackColor="LightBlue" MaximumTrackColor="Black" ThumbColor="#00ffffff" WidthRequest="10" Margin="10,10,175,0"/>
+              
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Switch IsToggled="True" OnColor="LightBlue" ThumbColor="White" Margin="15,30,0,0"/>
+                    <Switch IsToggled="False" OnColor="LightBlue" ThumbColor="White" Margin="35,30,0,0"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Switch x:Name="swich1" IsToggled="True" Toggled="switch1" OnColor="LightBlue" ThumbColor="White" Margin="15,5,0,0"/>
+                    <Label x:Name="OnOff1" StyleId="label" Text="On" Margin="0,8,-8,0"/>
+                    <Switch x:Name="swich2" IsToggled="False" Toggled="switch2" OnColor="LightBlue" ThumbColor="White"  Margin="15,5,0,0"/>
+                    <Label x:Name="OnOff2" StyleId="label" Text="Off" Margin="0,8,5,0"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Switch x:Name="swich3" IsToggled="True" Toggled="switch3" OnColor="LightBlue" ThumbColor="White"  Margin="15,5,0,0"/>
+                    <Label x:Name="OnOff3" StyleId="label" Text="✓" Margin="0,8,3,0"/>
+                    <Switch x:Name="swich4" IsToggled="False" Toggled="switch4" OnColor="LightBlue" ThumbColor="White" Margin="15,5,0,0"/>
+                    <Label x:Name="OnOff4" StyleId="label" Text="✕" Margin="0,8,5,0"/>
+
+                </StackLayout>
+
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="200,-135,0,0">
+
+    <!--BorderColor="LightBlue" TextColor="LightBlue"-->
+                <RadioButton BackgroundColor="#00ffffff" IsChecked="True" Margin="20,25,0,0"/>
+                <RadioButton BackgroundColor="#00ffffff" IsChecked="False" Margin="20,0,0,0"/>
+                <CheckBox Color="LightBlue" IsChecked="True" Margin="20,0,0,0"/>
+                <CheckBox Color="LightBlue" IsChecked="False" Margin="20,0,0,0"/>
+
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button1" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,0,0,0"/>
+                <Button StyleId="button1" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,0,0,0"/>
+                <Button StyleId="button1" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,0,0,0"/>
+                <Button StyleId="button1" Text="▶"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,0,0,0"/>
+                <Button StyleId="button1" Text="✓"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button2" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button2" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button2" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button2" Text="▶"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button2" Text="✓"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button3" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button3" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button3" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button3" Text="▶"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button3" Text="✓"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button StyleId="button4" Text="BUTTON"  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" Margin="30,5,0,0"/>
+                <Button StyleId="button4" Text=">"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button4" Text="+"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button4" Text="▶"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+                <Button StyleId="button4" Text="✓"  WidthRequest="40" HorizontalOptions="Center" HeightRequest="40" Margin="10,5,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout Orientation="Vertical">
+
+            <Label StyleId = "header" Text ="Добро пожаловать" FontSize = "Large" HorizontalOptions ="Center" Margin="0,50,0,40"/>
+            <Label x:Name="pickerText" StyleId="label" Text="Вы выбрали: " IsVisible="false" HorizontalOptions = "StartAndExpand" Margin="60,0,150,10"/>
+            <Label x:Name="login" StyleId="label" Text="Ваш логин: " IsVisible="false" HorizontalOptions = "StartAndExpand" Margin="60,0,150,10"/>
+            <Label x:Name="password" StyleId="label" Text="Ваш пароль:" IsVisible="false" HorizontalOptions = "StartAndExpand" Margin="60,0,150,20"/>
+            <Label x:Name="MaxVlue" StyleId="label" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="singInButton" StyleId="button"  Text = "Показать данные" HorizontalOptions="CenterAndExpand" WidthRequest="300" Margin="0,0,0,40" Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
